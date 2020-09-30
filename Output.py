@@ -12,10 +12,10 @@ mycol=mydb["NewsArticles"]
 myquery={"Current_Date":"{}".format(str(today))}
 list=mycol.find(myquery)
 
-def outputdirectory():
+def outputdirectory(outputpath):
     
     directory="{}".format(str(today))
-    parent_directory="C:\kausthubh\Intellimind"
+    parent_directory=outputpath
     path=os.path.join(parent_directory,directory)
 
     if not os.path.exists(path):

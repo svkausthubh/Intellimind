@@ -19,12 +19,12 @@ pickle=pandas.read_pickle('symbols.pickle')
     
 if __name__ == "__main__":
     with concurrent.futures.ProcessPoolExecutor() as executor:
-        #executor.map(NewsArcticlesYahoo,pickle.symbol[:20])
-        executor.map(NewsArticlesReuter,pickle.symbol[:10])
-        #executor.map(NewsArticlesTimes,pickle.symbol[:20])
+        executor.map(NewsArcticlesYahoo,pickle.symbol[:50])
+        executor.map(NewsArticlesReuter,pickle.symbol[:50])
+        executor.map(NewsArticlesTimes,pickle.symbol[:50])
     pass
 
-outputdirectory()
+outputdirectory(argument_list[1])
 
 if __name__=="__main__":
     app.run(debug=True)

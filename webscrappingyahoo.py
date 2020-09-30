@@ -38,7 +38,6 @@ def NewsArcticlesYahoo(security):
             }
             add(hash_mera)
         except:
-            print("excluded")
             continue
 
 

@@ -37,7 +37,6 @@ def NewsArticlesReuter(security):
             }
             add(hash_mera)
         except:
-            print("excluded")
             continue
 
 # if __name__ == "__main__":
