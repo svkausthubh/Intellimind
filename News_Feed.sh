@@ -1,0 +1,1 @@
+python news_scrapper.py —root_dir="C:\kausthubh\Intellimind" —source_list="C:\kausthubh\Intellimind\Source.txt"
