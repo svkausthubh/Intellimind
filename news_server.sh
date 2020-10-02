@@ -1,1 +1,1 @@
-flaskpart.py
+python flaskpart.py
