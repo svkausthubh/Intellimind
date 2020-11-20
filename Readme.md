@@ -1,4 +1,4 @@
-# Intellimind
+# News Management System
 ## Installation Guide
 * Clone this [Respositry](https://github.com/svkausthubh/Intellimind)
 * Install the following dependencies:(VirtualEnvironment Recommended)
